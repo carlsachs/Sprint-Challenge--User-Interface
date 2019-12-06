@@ -79,7 +79,8 @@ nav .navIMG {
 }
 .middleContainer {
     border: 1px solid black;
-    flex-flow: column wrap;
+    display: inline-flex;
+    flex-flow: row wrap;
     margin: 20px;
     margin-left: 30%;
     margin-right: 30%;
@@ -95,4 +96,14 @@ nav .navIMG {
 }
 .middleContainer #collab {
     width: 45%;
+}
+.bottom {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+footer nav{
+    background-color: black;
+}
+footer nav a {
+    color: white;
 }
