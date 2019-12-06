@@ -1,3 +1,5 @@
+
+/* My new reset bc old doesn't work*/
 * {
     border-size:border-box;
     margin:0;
@@ -48,14 +50,24 @@ p {
 }
 nav {
     display: flex;
-    padding-top: 50px;
     flex-flow: row nowrap;
     justify-content: space-evenly;
+    width: 50%;
+    margin-left: 25%;
+    padding:20px;
+}
+nav a {
+    text-decoration: none;
+    margin-top: 10px;
+    color: black;
 }
 }
 nav .navIMG {
     width:200px;
     height: 100px;
+}
+.middletopIMG {
+    margin:10px;
 }
 .container {
     width: 800px;
