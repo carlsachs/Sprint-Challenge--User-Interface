@@ -1,0 +1,124 @@
+/* My new reset bc old doesn't work*/
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding: 0;
+    max-width: 100%;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-size: 18px;
+    margin-bottom: 15px;
+    font-family: 'Rubik', sans-serif;
+}
+
+p {
+    line-height: 1.4;
+}
+nav {
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    width: 50%;
+    margin-left: 25%;
+    padding:20px;
+}
+nav a {
+    text-decoration: none;
+    margin-top: 27px;
+    color: black;
+}
+}
+nav .navIMG {
+    width:200px;
+    height: 100px;
+}
+.containerAll {
+    display:flex;
+    flex-flow: row wrap;
+}
+.topsec {
+    flex-flow: row nowrap;
+    margin: 3% 30% 3% 30%;
+}
+.aboutlong {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.middleContainer {
+    display: inline-flex;
+    justify-content: space-between;
+    flex-flow: row wrap;
+    margin: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.middleContainer #strategy {
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.middleContainer #how {
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 30px;    
+}
+.middleContainer #places {
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 30px;    
+}
+.middleContainer #collab {
+    width: 45%;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+.bottom {
+    margin-left: 30%;
+    margin-right: 30%;
+}
+button{
+    padding:10px;
+    margin-top: 10px;
+    border-radius: 8px;
+    background-color: white;
+    border:1px solid black;
+}
+footer nav{
+    background-color: black;
+}
+footer nav a {
+    color: white;
+}
