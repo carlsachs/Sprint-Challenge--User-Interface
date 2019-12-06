@@ -78,8 +78,8 @@ nav .navIMG {
     margin-bottom: 10px;
 }
 .middleContainer {
-    border: 1px solid black;
     display: inline-flex;
+    justify-content: space-between;
     flex-flow: row wrap;
     margin: 20px;
     margin-left: 30%;
@@ -87,19 +87,33 @@ nav .navIMG {
 }
 .middleContainer #strategy {
     width: 45%;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .middleContainer #how {
     width: 45%;
+    margin-top: 10px;
+    margin-bottom: 30px;    
 }
 .middleContainer #places {
     width: 45%;
+    margin-top: 10px;
+    margin-bottom: 30px;    
 }
 .middleContainer #collab {
     width: 45%;
+    margin-top: 10px;
+    margin-bottom: 30px;
 }
 .bottom {
     margin-left: 30%;
     margin-right: 30%;
+}
+button{
+    padding:10px;
+    border-radius: 8px;
+    background-color: white;
+    border:1px solid black;
 }
 footer nav{
     background-color: black;
