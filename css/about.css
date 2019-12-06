@@ -65,3 +65,34 @@ nav .navIMG {
     width:200px;
     height: 100px;
 }
+.containerAll {
+    display:flex;
+    flex-flow: row wrap;
+}
+.topsec {
+    flex-flow: row nowrap;
+    margin: 3% 30% 3% 30%;
+}
+.aboutlong {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.middleContainer {
+    border: 1px solid black;
+    flex-flow: column wrap;
+    margin: 20px;
+    margin-left: 30%;
+    margin-right: 30%;
+}
+.middleContainer #strategy {
+    width: 45%;
+}
+.middleContainer #how {
+    width: 45%;
+}
+.middleContainer #places {
+    width: 45%;
+}
+.middleContainer #collab {
+    width: 45%;
+}
